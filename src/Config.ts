@@ -23,6 +23,11 @@ var DefaultConfig = {
             gremlin: ""
         },
         {
+            id: "submariner",
+            label: "submariner",
+            gremlin: ""
+        },
+        {
             id: "namespaces",
             label: "Namespaces",
             gremlin: "G.V().Has('Type', 'host').as('host')" +
